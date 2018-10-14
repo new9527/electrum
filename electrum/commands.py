@@ -984,7 +984,7 @@ def add_global_options(parser):
     group.add_argument("--regtest", action="store_true", dest="regtest", default=False, help="Use Regtest")
     group.add_argument("--simnet", action="store_true", dest="simnet", default=False, help="Use Simnet")
     group.add_argument("--disablefilelogging", action="store_true", dest="disablefilelogging", default=False, help="Do not log to file")
-    group.add_argument("--lightning", action="store_true", dest="lightning", default=False, help="Enable Lightning support")
+    group.add_argument("--reckless", action="store_true", dest="reckless", default=False, help="Play with real money")
 
 def get_parser():
     # create main parser
